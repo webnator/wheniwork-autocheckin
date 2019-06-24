@@ -19,6 +19,11 @@ function formatTime(hour) {
 }
 
 module.exports = {
+  dayIsValid() {
+    const weekends = [ 6, 0 ];
+    return !weekends.includes(moment().day());
+  },
+
   async login(user, pwd) {
     const loginResponse = await requestService.post(config.urls.login, {
       email: user,

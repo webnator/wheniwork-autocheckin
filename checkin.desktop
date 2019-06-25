@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=Check in
 Comment=Checks in the wheniwork website
-Exec=node YOUR_PATH/index.js
+Exec=checkin
 Icon=utilities-terminal
 Type=Application
 GenericName[es_ES.UTF-8]=Checks in the wheniwork website

@@ -1,6 +1,6 @@
 'use strict';
 
-require('dotenv').config();
+require('dotenv').config({ path: `${__dirname}/.env` });
 
 module.exports = {
   user: process.env.CL_USER,
